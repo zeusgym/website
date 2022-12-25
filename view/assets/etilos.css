@@ -1,0 +1,116 @@
+* {
+    padding: 0px;
+    border: 0px;
+}
+
+.contenedor{    
+    margin: 0 auto;
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px #0000004d;
+    background-color: #e9eee7f7;
+    width: 55vh;
+    height: 35vh;
+    border: black solid 0.5rem;
+    border-radius: 0.5rem;    
+}
+
+.ingreso{
+    margin: 0 auto;      
+    flex-direction: column;              
+    display: flex;    
+    justify-content: center;    
+    text-align: center;
+}
+
+.registro{  
+    margin: 0 auto;                       
+    display: flex;
+    justify-content: center;    
+    height: 5vh; 
+    width: 40vh; 
+    text-align: center; 
+    border-radius: 0.5rem;    
+}
+
+a{
+    margin: 0 auto;
+    margin-top:0.5rem;    
+    display: flex;
+    justify-content: center;
+    width: 40vh;
+    height: 4vh; 
+    text-decoration: none;
+    color: #000000;   
+    font-size: 20px;
+    background-color: #eb141b;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.ingreso button{    
+    padding: 0.5em 1em;    
+    border: none;
+    background: #eb141b;
+    cursor: pointer;
+}
+/* --------FORMULARIO-------------- */
+
+.contenedorb{    
+    margin: 0 auto;
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9eee7f7;
+    width: 55vh;
+    height: 55vh;
+    box-shadow: 10px 10px #0000004d;
+    border: black solid 0.5rem;
+    border-radius: 0.5rem;        
+}
+
+.register{
+    margin: 0 auto;      
+    flex-direction: column;              
+    display: flex;    
+    justify-content: center;    
+    text-align: center;
+}
+
+.datos{
+    margin: 0 auto; 
+    margin-top: 0.5rem;                      
+    display: flex;
+    justify-content: center;    
+    height: 5vh; 
+    width: 40vh; 
+    text-align: center; 
+    border-radius: 0.5rem;
+}
+
+.crear{
+    margin: 0 auto;
+    margin-top:0.5rem;    
+    display: flex;
+    justify-content: center;
+    width: 40vh;
+    height: 4vh; 
+    text-decoration: none;
+    color: #000000;   
+    font-size: 20px;
+    background-color: #eb141b;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.register .crear{
+    padding: 0.5em 1em;    
+    border: none;
+    background: #eb141b;
+    cursor: pointer;
+}
