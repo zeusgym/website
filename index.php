@@ -16,7 +16,7 @@
 include_once('../controll/conexion.php');
 ?>
 
-
+    <p class="text-xl">Test</p>
     <div class="contenedorb">
         <div class="imagenpokemon">
             <img src="../view/logo.png">       
